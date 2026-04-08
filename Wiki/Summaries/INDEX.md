@@ -1,19 +1,19 @@
-| ID | 摘要文件 | 原始文件 | 更新时间 |
-| --- | --- | --- | --- |
-| S-DDIA-第5章-分布式数据复制 | [[S-DDIA-第5章-分布式数据复制]] | [[DDIA-5-冗余]] | 2026-04-08 |
-| S-raft工程化案例之etcd源码实现 | [[S-raft工程化案例之etcd源码实现]] | [[raft 工程化案例之 etcd 源码实现]] | 2026-04-08 |
-| S-第三章：分布式系统中的时间和顺序 | [[S-第三章：分布式系统中的时间和顺序]] | [[第三章：分布式系统中的时间和顺序]] | 2026-04-08 |
-| S-AI原生数据库的思考 | [[S-AI原生数据库的思考]] | [[AI原生数据库的思考]] | 2026-04-08 |
-| S-DDIA-6-分区 | [[S-DDIA-6-分区]] | [[DDIA-6-分区]] | 2026-04-08 |
-| S-etcd中线性一致性读的具体实现 | [[S-etcd中线性一致性读的具体实现]] | [[etcd 中线性一致性读的具体实现]] | 2026-04-08 |
-| S-LLM Knowledge Bases by karpathy | [[S-LLM Knowledge Bases by karpathy]] | [[LLM Knowledge Bases by @karpathy]] | 2026-04-08 |
-| S-llm-wiki | [[S-llm-wiki]] | [[llm-wiki]] | 2026-04-08 |
-| S-第六章：分区(codedump) | [[S-第六章：分区(codedump)]] | [[第六章：分区]] | 2026-04-08 |
-| S-第二章：分布式系统模型 | [[S-第二章：分布式系统模型]] | [[第二章：分布式系统模型]] | 2026-04-08 |
-| S-第2章：复杂性的本质 | [[S-第2章：复杂性的本质]] | [[第 2 章 复杂性的本质  《软件设计的哲学》中文版]] | 2026-04-08 |
-| S-第四章：复制 | [[S-第四章：复制]] | [[第四章：复制]] | 2026-04-08 |
-| S-第五章：共识算法 | [[S-第五章：共识算法]] | [[第五章：共识算法]] | 2026-04-08 |
-| S-通俗易懂数据库MVCC讲解 | [[S-通俗易懂数据库MVCC讲解]] | [[通俗易懂数据库MVCC讲解]] | 2026-04-08 |
-| S-谈谈Kimi Attention Res的工作 | [[S-谈谈Kimi Attention Res的工作]] | [[谈谈Kimi Attention Res的工作]] | 2026-04-08 |
-| S-Obsidian的PC端Git同步方案 | [[S-Obsidian的PC端Git同步方案]] | [[Obsidian 的 PC 端同步方案，无代码搞定 Git 同步]] | 2026-04-08 |
-| S-The Claude Code Handbook | [[S-The Claude Code Handbook]] | [[The Claude Code Handbook A Professional Introduction to Building with AI-Assisted Development]] | 2026-04-08 |
+| ID                                | 摘要文件                                  | 原始文件                                                                                              | 更新时间       |
+| --------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------- |
+| S-DDIA-第5章-分布式数据复制                | [[S-DDIA-第5章-分布式数据复制]]                | [[DDIA-5-冗余]]                                                                                     | 2026-04-08 |
+| S-raft工程化案例之etcd源码实现              | [[S-raft工程化案例之etcd源码实现]]              | [[raft 工程化案例之 etcd 源码实现]]                                                                         | 2026-04-08 |
+| S-第三章：分布式系统中的时间和顺序                | [[S-第三章：分布式系统中的时间和顺序]]                | [[第三章：分布式系统中的时间和顺序]]                                                                              | 2026-04-08 |
+| S-AI原生数据库的思考                      | [[S-AI原生数据库的思考]]                      | [[AI原生数据库的思考]]                                                                                    | 2026-04-08 |
+| S-DDIA-6-分区                       | [[S-DDIA-6-分区]]                       | [[DDIA-6-分区]]                                                                                     | 2026-04-08 |
+| S-etcd中线性一致性读的具体实现                | [[S-etcd中线性一致性读的具体实现]]                | [[etcd 中线性一致性读的具体实现]]                                                                             | 2026-04-08 |
+| S-LLM Knowledge Bases by karpathy | [[S-LLM Knowledge Bases by karpathy]] | [[LLM Knowledge Bases by @karpathy]]                                                              | 2026-04-08 |
+| S-llm-wiki                        | [[S-llm-wiki]]                        | [[llm-wiki]]                                                                                      | 2026-04-08 |
+| S-第六章：分区(codedump)                | [[S-第六章：分区(codedump)]]                | [[第六章：分区]]                                                                                        | 2026-04-08 |
+| S-第二章：分布式系统模型                     | [[S-第二章：分布式系统模型]]                     | [[第二章：分布式系统模型]]                                                                                   | 2026-04-08 |
+| S-第2章：复杂性的本质                      | [[S-第2章：复杂性的本质]]                      | [[第 2 章 复杂性的本质  《软件设计的哲学》中文版]]                                                                    | 2026-04-08 |
+| S-第四章：复制                          | [[S-第四章：复制]]                          | [[第四章：复制]]                                                                                        | 2026-04-08 |
+| S-第五章：共识算法                        | [[S-第五章：共识算法]]                        | [[第五章：共识算法]]                                                                                      | 2026-04-08 |
+| S-通俗易懂数据库MVCC讲解                   | [[S-通俗易懂数据库MVCC讲解]]                   | [[通俗易懂数据库MVCC讲解]]                                                                                 | 2026-04-08 |
+| S-谈谈Kimi Attention Res的工作         | [[S-谈谈Kimi Attention Res的工作]]         | [[谈谈Kimi Attention Res的工作]]                                                                       | 2026-04-08 |
+| S-Obsidian的PC端Git同步方案             | [[S-Obsidian的PC端Git同步方案]]             | [[Obsidian 的 PC 端同步方案，无代码搞定 Git 同步]]                                                              | 2026-04-08 |
+| S-The Claude Code Handbook        | [[S-The Claude Code Handbook]]        | [[The Claude Code Handbook A Professional Introduction to Building with AI-Assisted Development]] | 2026-04-08 |
