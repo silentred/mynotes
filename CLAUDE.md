@@ -105,19 +105,11 @@ updated: YYYY-MM-DD
 
 ## 增量编译规则
 
-1. 检查 `wiki/indexes/All-Sources.md`，找出「是否已编译 = ❌」的条目
-2. 只处理未编译的 raw 文件
+1. List `Clippings` 下的文件，查看哪些文件包含 `clippings` 标签，这些文件是未编译的
+2. 处理未编译的文件:
+	1. 第一步，将文件内容摘要，生成摘要文件到 `Wiki/Summaries` 目录下
+	2. 第二步，提取最多2个文章内的重要
 3. 完成后更新 All-Sources.md 对应条目为 ✅
 4. 新增概念自动添加到 All-Concepts.md
-
----
-
-## 健康检查规则（outputs/health/）
-
-每周运行，检查三项，报告存 `outputs/health/YYYY-WXX.md`：
-
-1. **一致性**：wiki/concepts/ 中是否有同一概念定义冲突
-2. **完整性**：哪些概念条目缺定义、缺来源、缺例子
-3. **孤岛**：哪些 wiki 文件入链 + 出链均少于 2
 
 ---
