@@ -2,6 +2,7 @@
 title: llm-wiki
 source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 author:
+  - karpathy
 published:
 created: 2026-04-08
 description: "llm-wiki. GitHub Gist: instantly share code, notes, and snippets."

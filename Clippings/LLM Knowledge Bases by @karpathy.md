@@ -2,7 +2,7 @@
 title: Thread by @karpathy
 source: https://x.com/karpathy/status/2039805659525644595
 author:
-  - "[[@karpathy]]"
+  - karpathy
 published: 2026-04-03
 created: 2026-04-05
 description: "LLM Knowledge Bases Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research"

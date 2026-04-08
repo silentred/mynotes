@@ -1,39 +1,35 @@
 ## 目录职责
 
-| 目录               | 职责                          | 谁维护       |
-| ---------------- | --------------------------- | --------- |
-| `Clippings/`     | 原始资料，只进不改                   | 人工 ingest |
-| `Wiki/Articles`  | 目录下有多个分类的子目录，文章摘要分类后保存在子目录下 | LLM 维护    |
-| `Wiki/Summaries` | 文章总结                        | LLM 维护    |
-| `Wiki/INDEX.md`  | 文章摘要的索引文件                   | LLM 维护    |
+| 目录                        | 职责                                                     | 谁维护    |
+| ------------------------- | ------------------------------------------------------ | ------ |
+| `Clippings/`              | 原始资料，只进不改                                              | 人工 维护  |
+| `Wiki/Articles`           | 目录下包含多个md文件，文件使用Tag名称命名，内部使用 dataview 查询语句列出包含 Tag 的文章 | 人工  维护 |
+| `Wiki/Summaries`          | 存放文章总结的 md 文件                                          | LLM 维护 |
+| `Wiki/Summaries/INDEX.md` | 存放文章总结索引文件                                             | LLM 维护 |
+| `Wiki/Concepts`           | 存放概念名称和简述的 md 文件                                       | LLM 维护 |
+| `Wiki/Concepts/INDEX.md`  | 存放概念的索引文件                                              | LLM 维护 |
 
 ---
 
-## 摘要格式（wiki/Summaries/）
+## 摘要格式（Wiki/Summaries/）
 
 文件命名：`S-<article-name>-.md` 
 
 ```yaml
-
 ---
 
-id: S-XXX
-
+id: S-<article-name>
 title: 摘要标题
-
+author: 作者
 source: 来源
-
 date: YYYY-MM-DD
-
 tags:
-
   - 标签
-
 ---
 
 ## 核心结论
 
-（3 条以内，每条一句话）
+（3 条以内，每条一句话）
 
 ## 关键数据
 
@@ -49,21 +45,20 @@ tags:
 
 ## 原始来源
 
-[【raw/research/...】]
+[[Clippings/<artical-name>.md]]
 
 ```
 
 ---
 
-## 概念条目格式（wiki/concepts/）
+## 概念条目格式（Wiki/Concepts/）
 
-文件命名：`C-XXX-<概念名>.md`（三位序号）
+文件命名：`C-<concept-name>.md`
 
 ```yaml
-
 ---
 
-id: C-XXX
+id: C-<concept-name>
 
 title: 概念名称
 
@@ -77,7 +72,7 @@ updated: YYYY-MM-DD
 
 ## 关联来源
 
-- [【S-XXX 摘要标题】]
+[[Clippings/<artical-name>.md]]
 
 ## 已知边界 / 局限
 
@@ -92,19 +87,19 @@ updated: YYYY-MM-DD
 ---
 
 
-## 索引维护（wiki/indexes/）
+## 索引维护
 
-### All-Sources.md
-所有 raw 文档的清单：
+### Wiki/Summaries/INDEX.md
+所有 Clippings 文档的清单：
 
-| ID | 文件路径 | 主题 | 日期 | 是否已编译 |
-|----|----------|------|------|-----------|
+| ID  | 文件路径 | 主题  | 更新时间 |
+| --- | ---- | --- | ---- |
 
-### All-Concepts.md
+### Wiki/Concepts/INDEX.md
 所有概念条目的清单：
 
-| ID | 概念名 | 关联来源数 | 最近更新 |
-|----|--------|-----------|---------|
+| ID  | 概念名 | 关联来源数 | 更新时间 |
+| --- | --- | ----- | ---- |
 
 ---
 
@@ -114,34 +109,6 @@ updated: YYYY-MM-DD
 2. 只处理未编译的 raw 文件
 3. 完成后更新 All-Sources.md 对应条目为 ✅
 4. 新增概念自动添加到 All-Concepts.md
-
----
-
-## Q&A 存档格式（outputs/qa/）
-
-文件命名：`QA-YYYY-MM-DD-<slug>.md`
-
-```yaml
----
-question: "问题原文"
-asked_at: YYYY-MM-DD
-sources:
-  - [【S-XXX 摘要】]
-  - [【C-XXX 概念】]
----
-
-## TL;DR
-（1-2 句结论）
-
-## 结论
-（详细推导）
-
-## 证据
-（链接回原始来源）
-
-## 不确定性
-（哪些地方还需验证）
-```
 
 ---
 
