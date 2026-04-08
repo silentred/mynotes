@@ -1,12 +1,13 @@
 ---
-title: "Obsidian 的 PC 端同步方案，无代码搞定 Git 同步"
-source: "https://utgd.net/article/9642"
+title: Obsidian 的 PC 端同步方案，无代码搞定 Git 同步
+source: https://utgd.net/article/9642
 author:
   - "[[沨沄极客]]"
 published:
 created: 2026-04-05
-description: "Git 是最不容易出错的文本同步方案，给 Obsidian 用上再合适不过。"
-tags: []
+description: Git 是最不容易出错的文本同步方案，给 Obsidian 用上再合适不过。
+tags:
+  - dev-tools
 ---
 注：如果你正在找手机端同步方案 [^1] ，请先阅读本文创建 Git 仓库后，阅读《 [Obsidian 的手机端同步方案，iOS + Git + Shortcuts 实现自动同步](https://utgd.net/article/20315/) 》。
 

@@ -1,12 +1,13 @@
 ---
 title: "The Claude Code Handbook: A Professional Introduction to Building with AI-Assisted Development"
-source: "https://www.freecodecamp.org/news/claude-code-handbook/#heading-chapter-1-the-context-that-made-claude-code-necessary"
+source: https://www.freecodecamp.org/news/claude-code-handbook/#heading-chapter-1-the-context-that-made-claude-code-necessary
 author:
   - "[[Vahe Aslanyan]]"
 published: 2026-03-26
 created: 2026-04-05
-description: "\"I have never enjoyed coding as much as I do today — because I no longer have to deal with the minutia.\" — Boris Cherny, Head of Claude Code, Anthropic This handbook is a complete, professional intro"
-tags: []
+description: '"I have never enjoyed coding as much as I do today — because I no longer have to deal with the minutia." — Boris Cherny, Head of Claude Code, Anthropic This handbook is a complete, professional intro'
+tags:
+  - AI
 ---
 > *"I have never enjoyed coding as much as I do today — because I no longer have to deal with the minutia."* — **Boris Cherny**, Head of Claude Code, Anthropic
 
