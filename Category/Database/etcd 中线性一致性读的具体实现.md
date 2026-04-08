@@ -1,13 +1,13 @@
 ---
-title: "etcd 中线性一致性读的具体实现"
-source: "https://zyy.rs/post/etcd-linearizable-read-implementation/"
+title: etcd 中线性一致性读的具体实现
+source: https://zyy.rs/post/etcd-linearizable-read-implementation/
 author:
   - "[[晒太阳的猫]]"
 published: 2019-01-20
 created: 2026-04-05
-description: "什么是线性一致性读 关于什么是线性一致性读（lineariable read），其实已经有不少博客阐述得非常清晰，本文也不再赘述。这里可以推荐 TiDB"
+description: 什么是线性一致性读 关于什么是线性一致性读（lineariable read），其实已经有不少博客阐述得非常清晰，本文也不再赘述。这里可以推荐 TiDB
 tags:
-  - "clippings"
+  - etcd
 ---
 ## 什么是线性一致性读
 

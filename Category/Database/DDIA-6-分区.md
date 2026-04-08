@@ -1,12 +1,13 @@
 ---
-title: "第六章：分区"
-source: "https://ddia.qtmuniao.com/#/ch06"
+title: 第六章：分区
+source: https://ddia.qtmuniao.com/#/ch06
 author:
 published:
 created: 2026-04-05
-description: "DDIA读书笔记 DDIA精读笔记 DDIA翻译"
+description: DDIA读书笔记 DDIA精读笔记 DDIA翻译
 tags:
-  - "clippings"
+  - database
+  - DDIA
 ---
 ## DDIA 逐章精读（六）: 分区（Partition)
 

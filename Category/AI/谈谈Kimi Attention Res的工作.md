@@ -1,13 +1,13 @@
 ---
-title: "谈谈Kimi Attention Res的工作"
-source: "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497970&idx=1&sn=59fa3e85e8b0a731a90f19b0d88d68c2&chksm=f995e830cee2612674a19e0bce5cd92787b2cfc4f1f92d9385dd5e930c67df18489c74ca22e7&scene=178&cur_album_id=3396415517161095170&search_click_id=#rd"
+title: 谈谈Kimi Attention Res的工作
+source: https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497970&idx=1&sn=59fa3e85e8b0a731a90f19b0d88d68c2&chksm=f995e830cee2612674a19e0bce5cd92787b2cfc4f1f92d9385dd5e930c67df18489c74ca22e7&scene=178&cur_album_id=3396415517161095170&search_click_id=#rd
 author:
   - "[[渣b]]"
 published:
 created: 2026-04-05
 description:
 tags:
-  - "clippings"
+  - AI
 ---
 原创 渣b *2026年3月21日 09:04*
 

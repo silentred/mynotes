@@ -1,13 +1,15 @@
 ---
-title: "raft 工程化案例之 etcd 源码实现"
-source: "https://mp.weixin.qq.com/s/jsJ3_E_5IOs4_rPDM5axzQ"
+title: raft 工程化案例之 etcd 源码实现
+source: https://mp.weixin.qq.com/s/jsJ3_E_5IOs4_rPDM5axzQ
 author:
   - "[[小徐先生1212]]"
 published:
 created: 2026-04-05
-description: "近期在和大家一起探讨分布式一致性共识算法中的 raft 算法. 本系列内容分为两篇：第一篇谈及 raft 算法的实现原理；第二篇通过 etcd 项目源码对 raft 算法原理进行论证和补充.\x0d\x0a本文是其中的第二篇"
+description: "近期在和大家一起探讨分布式一致性共识算法中的 raft 算法. 本系列内容分为两篇：第一篇谈及 raft 算法的实现原理；第二篇通过 etcd 项目源码对 raft 算法原理进行论证和补充.\r
+
+  本文是其中的第二篇"
 tags:
-  - "clippings"
+  - etcd
 ---
 原创 小徐先生1212 *2023年1月25日 16:05*
 

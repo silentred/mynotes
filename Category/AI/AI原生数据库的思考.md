@@ -1,13 +1,13 @@
 ---
-title: "AI原生数据库的思考"
-source: "https://mp.weixin.qq.com/s/mR_hVCVszx2EONfj9o2ihw"
+title: AI原生数据库的思考
+source: https://mp.weixin.qq.com/s/mR_hVCVszx2EONfj9o2ihw
 author:
   - "[[杨传辉]]"
 published:
 created: 2026-04-05
-description: "基于大模型的AI技术已经成为行业共识，各个行业的企业都在知识库、AI Coding、智能客服、ChatBI、Agent开发等场景落地大模型。"
+description: 基于大模型的AI技术已经成为行业共识，各个行业的企业都在知识库、AI Coding、智能客服、ChatBI、Agent开发等场景落地大模型。
 tags:
-  - "clippings"
+  - AI
 ---
 原创 杨传辉 *2025年12月5日 13:30*
 

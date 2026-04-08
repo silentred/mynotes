@@ -1,12 +1,13 @@
 ---
-title: "第五章：冗余"
-source: "https://ddia.qtmuniao.com/#/ch05?id=%e9%a2%86%e5%af%bc%e8%80%85%e4%b8%8e%e8%b7%9f%e9%9a%8f%e8%80%85"
+title: 分布式数据复制：Leader、Multi-Leader 与 Leaderless 模型全解析
+source: https://ddia.qtmuniao.com/#/ch05?id=%e9%a2%86%e5%af%bc%e8%80%85%e4%b8%8e%e8%b7%9f%e9%9a%8f%e8%80%85
 author:
 published:
 created: 2026-04-05
-description: "DDIA读书笔记 DDIA精读笔记 DDIA翻译"
+description: DDIA读书笔记 DDIA精读笔记 DDIA翻译
 tags:
-  - "clippings"
+  - database
+  - DDIA
 ---
 ## DDIA 逐章精读（五）: 冗余（Replication)
 

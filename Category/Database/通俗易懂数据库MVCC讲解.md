@@ -1,12 +1,12 @@
 ---
-title: "通俗易懂数据库MVCC讲解，后悔没早点学-腾讯云开发者社区-腾讯云"
-source: "https://cloud.tencent.com/developer/article/1698716"
+title: 通俗易懂数据库MVCC讲解，后悔没早点学-腾讯云开发者社区-腾讯云
+source: https://cloud.tencent.com/developer/article/1698716
 author:
 published: 2025-06-16
 created: 2026-04-05
-description: "MVCC（多版本并发控制）是InnoDB引擎提高数据库并发性能的关键技术，通过版本链、undo日志和Read View实现。它解决了读-写冲突，支持快照读和当前读两种模式，确保事务隔离性。RC和RR隔离级别下MVCC实现机制不同，RR级别通过首次快照读创建Read View避免幻读，RC级别每次快照读生成新Read V..."
+description: MVCC（多版本并发控制）是InnoDB引擎提高数据库并发性能的关键技术，通过版本链、undo日志和Read View实现。它解决了读-写冲突，支持快照读和当前读两种模式，确保事务隔离性。RC和RR隔离级别下MVCC实现机制不同，RR级别通过首次快照读创建Read View避免幻读，RC级别每次快照读生成新Read V...
 tags:
-  - "clippings"
+  - database
 ---
 ### **什么是MVCC**
 
