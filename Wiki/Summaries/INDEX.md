@@ -17,3 +17,4 @@
 | S-谈谈Kimi Attention Res的工作         | [[S-谈谈Kimi Attention Res的工作]]         | [[谈谈Kimi Attention Res的工作]]                                                                       | 2026-04-08 |
 | S-Obsidian的PC端Git同步方案             | [[S-Obsidian的PC端Git同步方案]]             | [[Obsidian 的 PC 端同步方案，无代码搞定 Git 同步]]                                                              | 2026-04-08 |
 | S-The Claude Code Handbook        | [[S-The Claude Code Handbook]]        | [[The Claude Code Handbook A Professional Introduction to Building with AI-Assisted Development]] | 2026-04-08 |
+| S-第3章-工作代码是不够的                    | [[S-第3章-工作代码是不够的]]                    | [[第 3 章 工作代码是不够的  《软件设计的哲学》中文版]]                                                                  | 2026-04-08 |
