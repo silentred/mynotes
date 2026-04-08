@@ -92,8 +92,9 @@ updated: YYYY-MM-DD
 ### Wiki/Summaries/INDEX.md
 所有 Clippings 文档的清单：
 
-| ID  | 文件路径 | 主题  | 更新时间 |
-| --- | ---- | --- | ---- |
+| ID          | 文件路径            | 主题  | 更新时间 |
+| ----------- | --------------- | --- | ---- |
+| S-DDIA-6-分区 | [[S-DDIA-6-分区]] |     |      |
 
 ### Wiki/Concepts/INDEX.md
 所有概念条目的清单：
@@ -105,11 +106,10 @@ updated: YYYY-MM-DD
 
 ## 增量编译规则
 
-1. List `Clippings` 下的文件，查看哪些文件包含 `clippings` 标签，这些文件是未编译的
+1. List `Clippings` 目录下的文件，查看哪些文件包含 `clippings` 标签，带有 `clippings`标签的文件是未编译的
 2. 处理未编译的文件:
-	1. 第一步，将文件内容摘要，生成摘要文件到 `Wiki/Summaries` 目录下
-	2. 第二步，提取最多2个文章内的重要
-3. 完成后更新 All-Sources.md 对应条目为 ✅
-4. 新增概念自动添加到 All-Concepts.md
+	1. 第一步，将文件内容摘要，生成摘要文件到 `Wiki/Summaries` 目录下，并更新 `Wiki/Summaries/INDEX.md` 文件
+	2. 第二步，提取最多1个文章内的重要概念，生成或更新到 `Wiki/Concepts` 目录下, 并更新 `Wiki/Concepts/INDEX.md` 文件
+3. 编译完成后，去除原始文件的 `clippings` 标签
 
 ---

@@ -6,8 +6,7 @@ author:
 published: 2026-03-26
 created: 2026-04-05
 description: "\"I have never enjoyed coding as much as I do today — because I no longer have to deal with the minutia.\" — Boris Cherny, Head of Claude Code, Anthropic This handbook is a complete, professional intro"
-tags:
-  - "clippings"
+tags: []
 ---
 > *"I have never enjoyed coding as much as I do today — because I no longer have to deal with the minutia."* — **Boris Cherny**, Head of Claude Code, Anthropic
 
