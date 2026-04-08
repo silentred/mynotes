@@ -57,13 +57,9 @@ tags:
 
 ```yaml
 ---
-
 id: C-<concept-name>
-
 title: 概念名称
-
 updated: YYYY-MM-DD
-
 ---
 
 ## 定义
