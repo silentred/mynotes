@@ -14,3 +14,4 @@
 | C-Obsidian同步 | Obsidian 笔记同步方案                      | 1     | 2026-04-08 |
 | C-深度表征学习     | 深度表征学习（Deep Representation Learning） | 1     | 2026-04-08 |
 | C-分布式事务      | 分布式事务（Distributed Transaction）       | 1     | 2026-04-08 |
+| C-深度模块        | 深度模块（Deep Module）                    | 1     | 2026-04-09 |
