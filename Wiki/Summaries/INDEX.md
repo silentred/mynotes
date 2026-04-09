@@ -19,4 +19,4 @@
 | S-The Claude Code Handbook        | [[S-The Claude Code Handbook]]        | [[The Claude Code Handbook A Professional Introduction to Building with AI-Assisted Development]] | 2026-04-08 |
 | S-第3章-工作代码是不够的                    | [[S-第3章-工作代码是不够的]]                    | [[第 3 章 工作代码是不够的  《软件设计的哲学》中文版]]                                                                  | 2026-04-08 |
 | S-关于智能的非正式引                       | [[S-关于智能的非正式引]]                       | [[1 关于智能的非正式引]]                                                                                   | 2026-04-08 |
-| S-第七章-分布式事务                      | [[S-第七章-分布式事务]]                      | [[第七章 事务]]                                                                                         | 2026-04-08 |
+| S-第七章-分布式事务                       | [[S-第七章-分布式事务]]                       | [[第七章 事务]]                                                                                        | 2026-04-08 |
