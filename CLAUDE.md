@@ -2,12 +2,14 @@
 
 | 目录                        | 职责                                                     | 谁维护    |
 | ------------------------- | ------------------------------------------------------ | ------ |
-| `Clippings/`              | 原始资料，只进不改                                              | 人工 维护  |
+| `Clippings/`              | 原始文章资料，人工录入                                            | 人工 维护  |
 | `Wiki/Articles`           | 目录下包含多个md文件，文件使用Tag名称命名，内部使用 dataview 查询语句列出包含 Tag 的文章 | 人工  维护 |
 | `Wiki/Summaries`          | 存放文章总结的 md 文件                                          | LLM 维护 |
 | `Wiki/Summaries/INDEX.md` | 存放文章总结索引文件                                             | LLM 维护 |
 | `Wiki/Concepts`           | 存放概念名称和简述的 md 文件                                       | LLM 维护 |
 | `Wiki/Concepts/INDEX.md`  | 存放概念的索引文件                                              | LLM 维护 |
+| `Wiki/Audit/LOG.md`       | 编译 wiki 的日志文件                                          | LLM 维护 |
+| `Wiki/Audit/HEALTH.md`    | wiki 目录的健康度总结                                          | LLM 维护 |
 
 ---
 
@@ -106,7 +108,7 @@ updated: YYYY-MM-DD
 
 ```yaml
 
-- [YYYY-MM-DD] | 原文: [[DDIA-6-分区]]
+- <YYYY-MM-DD> | 原文: [[DDIA-6-分区]]
   - 摘要: 新增 [[S-DDIA-6-分区]]
   - 概念: 新增 [[C-分布式分区]]
 
