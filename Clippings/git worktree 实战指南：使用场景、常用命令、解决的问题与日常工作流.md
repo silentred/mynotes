@@ -7,7 +7,8 @@ published:
 created: 2026-04-11
 description: "TL;DR（60 秒速览）是什么：为同一个仓库创建多个“工作区”（工作副本），每个工作区可检出不同分支/提交，同时开发互不干扰。核心约束：同一分支同一时刻只能在一个 worktree 被检出；要并行就用不同分支或 --de…"
 tags:
-  - "clippings"
+  - "git"
+  - "tool"
 ---
 ## TL;DR（60 秒速览）
 
@@ -232,12 +233,3 @@ git worktree prune -n -v && git worktree prune
 
 当你需要同时处理多个任务分支、又不想在单个目录里频繁切分支与 `stash` 时， `git worktree` 是更优雅与高效的选择。以目录命名规范化、集中清理策略和少量惯例，即可把它稳定地纳入你的日常工作流。
 
-还没有人送礼物，鼓励一下作者吧
-
-发布于 2025-08-11 17:45・新加坡・包含 AI 辅助创作 作者对内容负责[git命令](https://www.zhihu.com/topic/26318684)[Git](https://www.zhihu.com/topic/19557710)[手机就能控电脑？QClaw实现远程AI办公！](https://qclaw.qq.com/?channel=5033&spu=biz%3D0%26ci%3D3696593%26si%3D125ddc24-caae-43ec-86ee-3296ccd97f82%26ts%3D1775903906%26zid%3D1629)
-
-[
-
-一键直联QClaw，零配置远程操控，让AI随时随地...
-
-](https://qclaw.qq.com/?channel=5033&spu=biz%3D0%26ci%3D3696593%26si%3D125ddc24-caae-43ec-86ee-3296ccd97f82%26ts%3D1775903906%26zid%3D1629)
