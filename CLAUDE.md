@@ -19,35 +19,17 @@
 
 ```yaml
 ---
-
 id: S-<article-name>
 title: 摘要标题
 author: 作者
 source: 来源
+reference: [[Clippings/<artical-name>.md]]
 date: YYYY-MM-DD
 tags:
   - 标签
 ---
 
-## 核心内容总结
-
-（小于等于 5 条，每条一句话）
-
-## 关键数据
-
-（有数字/来源的结论，加粗关键数字）
-
-## 疑点 / 待验证
-
-（尚无定论的问题）
-
-## 术语表
-
-- 术语：定义
-
-## 原始来源
-
-[[Clippings/<artical-name>.md]]
+(在此处输出正文内容。直接按照 Why -> How -> What 的顺序输出结果。每一部分一个自然段落。对文字中的重点内容使用 **加粗** 标记。不要输出"Why/How/What"这些引导词，直接输出内容。)
 
 ```
 
@@ -61,6 +43,7 @@ tags:
 ---
 id: C-<concept-name>
 title: 概念名称
+reference: [[Clippings/<artical-name>.md]]
 updated: YYYY-MM-DD
 ---
 
@@ -104,13 +87,14 @@ updated: YYYY-MM-DD
 ---
 ## 日志格式 (Wiki/Audit/LOG.md)
 
+**触发来源:** `Clippings/` 目录变动 或 用户指令
 日志文件是 append-only 的, 格式如下:
 
 ```yaml
 
 - <YYYY-MM-DD> | 原文: [[DDIA-6-分区]]
-  - 摘要: 新增 [[S-DDIA-6-分区]]
-  - 概念: 新增 [[C-分布式分区]]
+  - 摘要: [新增 or 修改 or 重构] [[S-DDIA-6-分区]]
+  - 概念: [新增 or 修改 or 重构] [[C-分布式分区]]
 
 ```
 
