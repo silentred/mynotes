@@ -23,14 +23,29 @@ id: S-<article-name>
 title: 摘要标题
 author: 作者
 source: 来源
-reference: [[Clippings/<artical-name>.md]]
+reference: Clippings/<artical-name>.md
 date: YYYY-MM-DD
 tags:
   - 标签
 ---
 
-(在此处输出正文内容。直接按照 Why -> How -> What 的顺序输出结果。每一部分一个自然段落。对文字中的重点内容使用 **加粗** 标记。不要输出"Why/How/What"这些引导词，直接输出内容。)
+## 核心内容总结
+（小于等于 5 条，每条一句话）
 
+## 关键数据
+（有数字/来源的结论，加粗关键数字）
+
+## 简述要点
+（300字以内简述内容。直接按照 Why -> How -> What 的顺序输出结果。每一部分一个自然段落。对文字中的重点内容使用 **加粗** 标记。不要输出"Why/How/What"这些引导词，直接输出内容）
+
+## 疑点 / 待验证
+（尚无定论的问题）
+
+## 术语表
+- 术语：定义
+
+## 原始来源
+[[Clippings/<artical-name>.md]]
 ```
 
 ---
@@ -43,7 +58,7 @@ tags:
 ---
 id: C-<concept-name>
 title: 概念名称
-reference: [[Clippings/<artical-name>.md]]
+reference: Clippings/<artical-name>.md
 updated: YYYY-MM-DD
 ---
 
