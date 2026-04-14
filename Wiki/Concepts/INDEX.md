@@ -20,3 +20,5 @@
 | C-网络库设计        | [[C-网络库设计]]        | 网络库设计原则涵盖零拷贝、TCP 滑动窗口感知、用户指定分配器、多 OS 接口抽象、one-op/one-callback 异步机制、错误代码透明传递、分层 Socket 等核心要点。 | 1     | 2026-04-12 |
 | C-SYN Cookie | [[C-SYN Cookie]] | SYN Cookie 将连接状态编码到序列号中防御 SYN 洪泛攻击，但会清空 window scale 等选项，当与 tcp_wan_timestamps=0 组合时可使 MSS 塌缩至 48 字节。 | 1     | 2026-04-12 |
 | C-多智能体协作模式 | [[C-多智能体协作模式]] | 多智能体协作模式包括生成-验证者、调度-子智能体、智能体团队、消息总线、共享状态五种，围绕"上下文边界如何划分"解决分工与通信问题。 | 1     | 2026-04-12 |
+| C-Swap子系统   | [[C-Swap子系统]]   | Linux Swap 子系统负责将匿名页换出到持久化存储以释放 RAM；Kairui Song 以 swap table 统一替代 XArray + swap map，大幅简化代码并提升性能。 | 1     | 2026-04-14 |
+| C-虚拟Swap空间 | [[C-虚拟Swap空间]] | 虚拟 Swap 空间在 swap entry 与物理设备间引入抽象层，解耦 swap off 与 PTE 扫描，支持 zswap 无需预占物理空间，但有 4 倍内存开销，两种方案（Meta/TencentOS）尚存分歧。 | 1     | 2026-04-14 |
