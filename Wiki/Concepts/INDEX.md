@@ -22,3 +22,5 @@
 | C-多智能体协作模式 | [[C-多智能体协作模式]] | 多智能体协作模式包括生成-验证者、调度-子智能体、智能体团队、消息总线、共享状态五种，围绕"上下文边界如何划分"解决分工与通信问题。 | 1     | 2026-04-12 |
 | C-Swap子系统   | [[C-Swap子系统]]   | Linux Swap 子系统负责将匿名页换出到持久化存储以释放 RAM；Kairui Song 以 swap table 统一替代 XArray + swap map，大幅简化代码并提升性能。 | 1     | 2026-04-14 |
 | C-虚拟Swap空间 | [[C-虚拟Swap空间]] | 虚拟 Swap 空间在 swap entry 与物理设备间引入抽象层，解耦 swap off 与 PTE 扫描，支持 zswap 无需预占物理空间，但有 4 倍内存开销，两种方案（Meta/TencentOS）尚存分歧。 | 1     | 2026-04-14 |
+| C-Rockraft    | [[C-Rockraft]]    | Rockraft 是基于 OpenRaft + RocksDB 的 Rust 框架，通过 RaftLogStorage/RaftStateMachine 两 Trait 解耦共识与存储，用户可基于此构建专属强一致 KV 存储。              | 1     | 2026-04-14 |
+| C-Agent优先开发 | [[C-Agent优先开发]] | Agent 优先开发是以智能体为主要代码贡献者的工程范式，人类负责设计环境、明确意图和反馈回路；Codex 运行时不访问的信息对其不存在，代码仓库需成为唯一记录系统。             | 1     | 2026-04-15 |
