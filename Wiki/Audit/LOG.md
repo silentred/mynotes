@@ -26,6 +26,10 @@
   - 摘要: 新增 [[S-Rockraft]]
   - 概念: 新增 [[C-Rockraft]]
 
+- <2026-04-26> | 原文: [[Chapter 1 What is Sequence Data ?  From sequences to knowledge, improving and learning from sequence alignments]]
+  - 摘要: 新增 [[S-Chapter1-WhatIsSequenceData]]
+  - 概念: 新增 [[C-同聚物]]
+
 - <2026-04-26> | 原文: [[深度复盘-重启 etcd 引发的异常]]
   - 摘要: 无新增（[[S-深度复盘-etcd异常]] 已存在）
   - 概念: 无新增（[[C-SYN Cookie]] 已存在）
