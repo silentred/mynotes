@@ -7,7 +7,6 @@ published: 2026-03-11
 created: 2026-04-15
 description: 在智能体优先的世界中利用 Codex
 tags:
-  - clippings
 ---
 
 在过去五个月里，我们的团队一直在进行一项实验：构建并交付一款软件产品的内部 beta 版， **其中没有一行代码是人工编写的** 。

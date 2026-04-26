@@ -7,7 +7,6 @@ published: 2026-04-12
 created: 2026-04-12
 description: "我们常常看到，有些团队在挑选模式时，只顾着选听起来“高大上”的，却忽略了到底适不适合手头的问题。我们的建议是：从最简单的、能跑通的模式开始，观察它在哪里会遇到瓶颈，然后再逐步升级。 今天这篇文章，我们就来拆解五种常见模式的运作原理和局限性：生成 - 验证者 (Generator-..."
 tags:
-  - "clippings"
 ---
 ![Image](https://pbs.twimg.com/media/HFsLpYraQAAg8Wd?format=jpg&name=large)
 

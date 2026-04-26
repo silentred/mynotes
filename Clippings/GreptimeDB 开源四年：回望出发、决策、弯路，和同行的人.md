@@ -7,7 +7,6 @@ published: 2026-04-21
 created: 2026-04-23
 description: "GreptimeDB 开源四年，联合创始人冯家纯回望当年的决策与弯路：为什么选 Rust、为什么重写存储引擎、为什么把 metrics/logs/traces 统一，以及社区教会了我们什么。"
 tags:
-  - "clippings"
 ---
 这不是一篇庆功稿，而是一次阶段性的回望：为什么出发，怎样选择，错过了什么，又因为什么坚持到今天。
 

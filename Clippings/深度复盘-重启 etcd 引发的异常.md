@@ -7,7 +7,6 @@ published:
 created: 2026-04-12
 description: "唐聪、王超凡，腾讯云原生产品中心技术专家，负责腾讯云大规模 TKE 集群和 etcd 控制面稳定性、性能和成本优化工作。 王子勇，腾讯云专家级工程师， 腾讯云计算产品技术服务专家团队负责人。 概况作为当前中国广泛…"
 tags:
-  - "clippings"
 ---
 [唐聪](https://zhida.zhihu.com/search?content_id=222817686&content_type=Article&match_order=1&q=%E5%94%90%E8%81%AA&zhida_source=entity) 、王超凡，腾讯云原生产品中心技术专家，负责腾讯云大规模 TKE 集群和 etcd 控制面稳定性、性能和成本优化工作。
 
