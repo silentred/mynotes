@@ -7,7 +7,6 @@ published:
 created: 2026-04-26
 description: "Chapter 2 Aligning Sequence Data | From sequences to knowledge, improving and learning from sequence alignments"
 tags:
-  - "clippings"
 ---
 ## Chapter 2 Aligning Sequence Data
 

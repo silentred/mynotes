@@ -26,6 +26,14 @@
   - 摘要: 新增 [[S-Rockraft]]
   - 概念: 新增 [[C-Rockraft]]
 
+- <2026-04-26> | 原文: [[Chapter 3 Contribution 1 Improving Read Alignment by Exploring a Sequence Transformation Space  From sequences to knowledge, improving and learning from sequence alignments]]
+  - 摘要: 新增 [[S-Chapter3-MSRs]]
+  - 概念: 新增 [[C-MSRS]]
+
+- <2026-04-26> | 原文: [[Chapter 2 Aligning Sequence Data  From sequences to knowledge, improving and learning from sequence alignments]]
+  - 摘要: 新增 [[S-Chapter2-AligningSequenceData]]
+  - 概念: 新增 [[C-动态规划序列比对]]
+
 - <2026-04-26> | 原文: [[Chapter 1 What is Sequence Data ?  From sequences to knowledge, improving and learning from sequence alignments]]
   - 摘要: 新增 [[S-Chapter1-WhatIsSequenceData]]
   - 概念: 新增 [[C-同聚物]]
