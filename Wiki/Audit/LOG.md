@@ -66,6 +66,22 @@
   - 摘要: 新增 [[S-TLS完全指南]]
   - 概念: 新增 [[C-信任链与CA]]
 
+- <2026-04-28> | 原文: [[Chapter 4 Learning From Sequences and Alignments  From sequences to knowledge, improving and learning from sequence alignments]]
+  - 摘要: 新增 [[S-Chapter4-LearningFromSequences]]
+  - 概念: 新增 [[C-序列编码]]
+
+- <2026-04-28> | 原文: [[Chapter 5 Viruses, HIV and Drug Resistance  From sequences to knowledge, improving and learning from sequence alignments]]
+  - 摘要: 新增 [[S-Chapter5-VirusesHIV]]
+  - 概念: 无新增
+
+- <2026-04-28> | 原文: [[Chapter 6 Contribution 2 Inferring Mutation Roles From Sequence Alignments Using Machine Learning  From sequences to knowledge, improving and learning from sequence alignments]]
+  - 摘要: 新增 [[S-Chapter6-InferringMutationRoles]]
+  - 概念: 新增 [[C-耐药相关突变]]
+
+- <2026-04-28> | 原文: [[Chapter 7 Learning Alignments, an Interesting Perspective  From sequences to knowledge, improving and learning from sequence alignments]]
+  - 摘要: 新增 [[S-Chapter7-LearningAlignments]]
+  - 概念: 新增 [[C-学习式序列比对]]
+
 - <2026-04-15> | 原文: [[工程技术：在智能体优先的世界中利用 Codex]]
   - 摘要: 新增 [[S-利用Codex构建]]
   - 概念: 新增 [[C-Agent优先开发]]

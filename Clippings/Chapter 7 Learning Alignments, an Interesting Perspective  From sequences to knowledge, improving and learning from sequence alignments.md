@@ -6,8 +6,7 @@ author:
 published:
 created: 2026-04-26
 description: "Chapter 7 Learning Alignments, an Interesting Perspective | From sequences to knowledge, improving and learning from sequence alignments"
-tags:
-  - "clippings"
+tags: []
 ---
 ## Chapter 7 Learning Alignments, an Interesting Perspective
 

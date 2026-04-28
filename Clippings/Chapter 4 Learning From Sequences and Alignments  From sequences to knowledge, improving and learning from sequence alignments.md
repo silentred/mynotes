@@ -6,8 +6,7 @@ author:
 published:
 created: 2026-04-26
 description: "Chapter 4 Learning From Sequences and Alignments | From sequences to knowledge, improving and learning from sequence alignments"
-tags:
-  - "clippings"
+tags: []
 ---
 ## Chapter 4 Learning From Sequences and Alignments
 

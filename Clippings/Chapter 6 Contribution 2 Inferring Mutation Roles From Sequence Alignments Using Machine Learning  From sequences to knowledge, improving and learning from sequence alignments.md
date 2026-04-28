@@ -6,8 +6,7 @@ author:
 published:
 created: 2026-04-26
 description: "Chapter 6 Contribution 2: Inferring Mutation Roles From Sequence Alignments Using Machine Learning | From sequences to knowledge, improving and learning from sequence alignments"
-tags:
-  - "clippings"
+tags: []
 ---
 ## Chapter 6 Contribution 2: Inferring Mutation Roles From Sequence Alignments Using Machine Learning
 

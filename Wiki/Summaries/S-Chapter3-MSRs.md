@@ -1,6 +1,6 @@
 ---
 id: S-Chapter3-MSRs
-title: Chapter 3 MSR: Mapping-Friendly Sequence Reductions
+title:  Mapping-Friendly Sequence Reductions
 author: Luc Blassel, Paul Medvedev, Rayan Chikhi
 source: https://thesis.lucblassel.com/HPC-paper.html
 reference: Clippings/Chapter 3 Contribution 1 Improving Read Alignment by Exploring a Sequence Transformation Space  From sequences to knowledge, improving and learning from sequence alignments.md
