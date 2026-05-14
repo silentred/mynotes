@@ -36,3 +36,4 @@
 | C-序列比对 | [[C-序列比对]] | 序列比对将生物序列同源区域对齐以比较，是生物信息学核心方法；通过与 ML 结合可进一步推断序列中每类突变的功能角色（如耐药性 vs 背景突变）。 | 1 | 2026-04-26 |
 | C-预训练语言模型 | [[C-预训练语言模型]] | PLM 通过自监督任务预训练再微调，ELMo 确范式，BERT 推高潮，GPT 从 Decoder-Only 路线演进为 LLM 基座；核心分 Encoder-Only / Decoder-Only / Encoder-Decoder 三类。 | 2 | 2026-04-29 |
 | C-TLS | [[C-TLS]] | TLS 以非对称加密协商对称密钥，CA 数字签名体系验证身份，是 HTTPS 的安全基础；双向认证（mTLS）广泛用于 Kubernetes 等分布式系统内部通信。 | 1 | 2026-04-26 |
+| C-HeuristicLearning | [[C-HeuristicLearning]] | Heuristic Learning 以 Coding Agent 修改代码（而非反向传播）迭代策略，突破了 heuristic 维护成本瓶颈；健康 HS 需同时执行"吸收反馈"和"压缩历史"两个操作。 | 1 | 2026-05-14 |

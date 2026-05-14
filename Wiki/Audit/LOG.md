@@ -22,6 +22,11 @@
   - 摘要: 新增 [[S-第三章-预训练语言模型]]
   - 概念: 新增 [[C-预训练语言模型]]
 
+- <2026-05-14> | 原文: [[Learning Beyond Gradients]]
+  - 摘要: 新增 [[S-LearningBeyondGradients]]
+  - 概念: 新增 [[C-HeuristicLearning]]
+
+
 - <2026-04-14> | 原文: [[最硬核的一次 Linux 内核重构]]
   - 摘要: 新增 [[S-最硬核的一次Linux内核重构]]
   - 概念: 新增 [[C-Swap子系统]], [[C-虚拟Swap空间]]
