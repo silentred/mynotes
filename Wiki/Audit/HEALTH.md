@@ -1,43 +1,50 @@
 # Wiki Health Report
 
-Generated: 2026-05-09
+Generated: 2026-05-12
 
 ## Summary
 
 | 指标 | 数量 |
 | ---- | ---- |
 | 原始文档 (Clippings) | 40 |
-| 摘要文档 (Summaries) | 40 |
+| 摘要文档 (Summaries) | 39 |
 | 概念文档 (Concepts) | 34 |
-| **缺失摘要** | **3** |
+| **缺失摘要** | **6** |
+| **孤立摘要** | **1** |
 
 ## Status: NEEDS ATTENTION
 
-**3 个原始文档没有对应的摘要文档，需要补充。**
+**6 个原始文档没有对应的摘要文档，需要补充。**
+**1 个摘要文档没有对应的原始文档，需要处理。**
 
 ---
 
-## Missing Summaries (3)
+## Missing Summaries (6)
 
 | 原始文档 | 建议摘要文件名 |
 | -------- | ------------ |
-| `DDIA-5-冗余.md` | `S-DDIA-第5章-分布式数据复制.md`（已有同名摘要文件，需确认是否是同一篇文章） |
-| `llm-wiki.md` | `S-llm-wiki.md`（已有同名摘要文件，需确认内容是否完整） |
-| `1 关于智能的非正式引.md` | `S-关于智能的非正式引.md`（已有同名摘要文件，需确认内容是否完整） |
-
-> 注：上述三个文件在 Clippings 中存在且 Summaries 中有同名的摘要文件，但摘要文件的 `reference` 字段未正确指向原始文档，或文件名/内容存在偏差。需要人工确认这两类文件是否一致对应。
+| `DDIA-5-冗余.md` | `S-DDIA-第5章-分布式数据复制.md` |
+| `第六章：分区.md` | `S-第六章：分区.md` |
+| `通俗易懂数据库MVCC讲解.md` | `S-通俗易懂数据库MVCC讲解.md` |
+| `谈谈Kimi Attention Res的工作.md` | `S-谈谈Kimi Attention Res的工作.md` |
+| `1 关于智能的非正式引.md` | `S-关于智能的非正式引.md` |
+| `第三章：分布式系统中的时间和顺序.md` | `S-第三章：分布式系统中的时间和顺序.md` |
 
 ---
 
-## Orphaned Summaries (3)
+## Orphaned Summaries (1)
 
-以下摘要文件在 Clippings 中找不到对应条目（可能是旧文件名残留或重复创建）：
+以下摘要文件在 Clippings 中找不到对应条目：
 
 | 摘要文件 | 说明 |
 | ------- | ---- |
-| `S-DDIA-第5章-分布式数据复制.md` | 对应 `DDIA-5-冗余.md`，需确认内容是否匹配 |
-| `S-llm-wiki.md` | 对应 `llm-wiki.md`，需确认内容是否匹配 |
-| `S-利用Codex构建-官方实践.md` | 重复摘要，内容与 `S-利用Codex构建.md` 可能重叠 |
+| `S-DDIA-第5章-分布式数据复制.md` | 原始文件为 `DDIA-5-冗余.md`，需人工确认内容是否匹配 |
+
+---
+
+## Duplicate / Orphaned Summaries
+
+（已无其他孤立摘要文件）
 
 ---
 
@@ -53,8 +60,8 @@ Generated: 2026-05-09
 | 第五章：共识算法.md | S-第五章：共识算法.md | OK |
 | 第四章：复制.md | S-第四章：复制.md | OK |
 | 第二章：分布式系统模型.md | S-第二章：分布式系统模型.md | OK |
-| 第六章：分区.md | S-第六章：分区(codedump).md | OK |
-| 第三章：分布式系统中的时间和顺序.md | S-第三章：分布式系统中的时间和顺序.md | OK |
+| 第六章：分区.md | **缺失** | MISSING |
+| 第三章：分布式系统中的时间和顺序.md | **缺失** | MISSING |
 | 第二章 Transformer 架构.md | S-第二章-Transformer架构.md | OK |
 | 第三章 预训练语言模型.md | S-第三章-预训练语言模型.md | OK |
 | 网络库常见的糟糕设计有哪些.md | S-网络库糟糕设计.md | OK |
@@ -70,12 +77,13 @@ Generated: 2026-05-09
 | The Claude Code Handbook A Professional Introduction to Building with AI-Assisted Development.md | S-The Claude Code Handbook.md | OK |
 | etcd 中线性一致性读的具体实现.md | S-etcd中线性一致性读的具体实现.md | OK |
 | raft 工程化案例之 etcd 源码实现.md | S-raft工程化案例之etcd源码实现.md | OK |
-| 通俗易懂数据库MVCC讲解.md | S-通俗易懂数据库MVCC讲解.md | OK |
-| 关于智能的非正式引.md | S-关于智能的非正式引.md | OK |
-| 谈谈Kimi Attention Res的工作.md | S-谈谈Kimi Attention Res的工作.md | OK |
+| 通俗易懂数据库MVCC讲解.md | **缺失** | MISSING |
+| 谈谈Kimi Attention Res的工作.md | **缺失** | MISSING |
+| 1 关于智能的非正式引.md | **缺失** | MISSING |
 | git worktree 实战指南：使用场景、常用命令、解决的问题与日常工作流.md | S-git-worktree-实战指南.md | OK |
 | AI原生数据库的思考.md | S-AI原生数据库的思考.md | OK |
 | DDIA-6-分区.md | S-DDIA-6-分区.md | OK |
+| DDIA-5-冗余.md | **缺失** | MISSING |
 | Chapter 1 What is Sequence Data ?  From sequences to knowledge, improving and learning from sequence alignments.md | S-Chapter1-WhatIsSequenceData.md | OK |
 | Chapter 2 Aligning Sequence Data  From sequences to knowledge, improving and learning from sequence alignments.md | S-Chapter2-AligningSequenceData.md | OK |
 | Chapter 3 Contribution 1 Improving Read Alignment by Exploring a Sequence Transformation Space  From sequences to knowledge, improving and learning from sequence alignments.md | S-Chapter3-MSRs.md | OK |
@@ -83,15 +91,7 @@ Generated: 2026-05-09
 | Chapter 5 Viruses, HIV and Drug Resistance  From sequences to knowledge, improving and learning from sequence alignments.md | S-Chapter5-VirusesHIV.md | OK |
 | Chapter 6 Contribution 2 Inferring Mutation Roles From Sequence Alignments Using Machine Learning  From sequences to knowledge, improving and learning from sequence alignments.md | S-Chapter6-InferringMutationRoles.md | OK |
 | Chapter 7 Learning Alignments, an Interesting Perspective  From sequences to knowledge, improving and learning from sequence alignments.md | S-Chapter7-LearningAlignments.md | OK |
-| DDIA-5-冗余.md | ⚠️ 需人工确认 S-DDIA-第5章-分布式数据复制.md 是否匹配 | WARN |
-| llm-wiki.md | ⚠️ 需人工确认 S-llm-wiki.md 是否匹配 | WARN |
-| 1 关于智能的非正式引.md | ⚠️ 需人工确认 S-关于智能的非正式引.md 是否匹配 | WARN |
-
----
-
-## Duplicate / Orphaned Summaries
-
-（已无孤立摘要文件）
+| llm-wiki.md | S-llm-wiki.md | OK |
 
 ---
 
