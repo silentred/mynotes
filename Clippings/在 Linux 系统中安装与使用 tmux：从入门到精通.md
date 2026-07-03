@@ -223,9 +223,9 @@ tmux 的默认配置可能不符合个人习惯，通过配置文件 `~/.tmux.co
  
 # -------------------------- 基础设置 --------------------------
 # 修改前缀键为 Ctrl + a（替代默认 Ctrl + b，更符合习惯）
-set -g prefix C-a
+#set -g prefix C-a
 # 解除默认前缀键 Ctrl + b 的绑定（可选）
-unbind C-b
+#unbind C-b
 # 允许通过 Ctrl + a + a 快速切换到上一个窗口（类似 screen）
 bind C-a send-prefix
  
@@ -256,6 +256,8 @@ set -g pane-base-index 1  # 面板编号从 1 开始
  
 # 关闭窗口时不确认（默认需要按 y 确认）
 bind & kill-window
+# 关闭 pane 时 (prefix + x)不用确认
+bind x kill-pane
  
 # -------------------------- 外观设置 --------------------------
 # 状态栏位置（top/bottom，默认 bottom）
