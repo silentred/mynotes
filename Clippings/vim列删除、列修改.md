@@ -6,8 +6,7 @@ author:
 published: 2022-11-17
 created: 2026-08-10
 description: "vim 块操作 一、列修改 首先进入 vim ，按下快捷键 ctrl + v进入块操作模式。然后按上下键选中你想要批量修改的文..."
-tags:
-  - "clippings"
+tags: []
 ---
 > vim 块操作
 

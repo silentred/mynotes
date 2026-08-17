@@ -37,3 +37,5 @@
 | C-预训练语言模型 | [[C-预训练语言模型]] | PLM 通过自监督任务预训练再微调，ELMo 确范式，BERT 推高潮，GPT 从 Decoder-Only 路线演进为 LLM 基座；核心分 Encoder-Only / Decoder-Only / Encoder-Decoder 三类。 | 2 | 2026-04-29 |
 | C-TLS | [[C-TLS]] | TLS 以非对称加密协商对称密钥，CA 数字签名体系验证身份，是 HTTPS 的安全基础；双向认证（mTLS）广泛用于 Kubernetes 等分布式系统内部通信。 | 1 | 2026-04-26 |
 | C-HeuristicLearning | [[C-HeuristicLearning]] | Heuristic Learning 以 Coding Agent 修改代码（而非反向传播）迭代策略，突破了 heuristic 维护成本瓶颈；健康 HS 需同时执行"吸收反馈"和"压缩历史"两个操作。 | 1 | 2026-05-14 |
+| C-终端复用器 | [[C-终端复用器]] | 终端复用器把单个物理终端虚拟为多个持久会话，会话与窗口解耦，关闭终端不中断后台进程；tmux 与 GNU screen 是代表实现。 | 1     | 2026-08-17 |
+| C-ColumnFamily | [[C-ColumnFamily]] | Column Family 是 RocksDB 的逻辑分区机制，共享 WAL 但 MemTable/SST/Version 按 CF 独立；代价是 stall 联动与 WAL 回收受最慢 CF 牵制。 | 1     | 2026-08-17 |

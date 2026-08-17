@@ -6,8 +6,7 @@ author:
 published: 2026-07-07
 created: 2026-08-17
 description: "从 RocksDB 3.0 引入的 ColumnFamily 出发，拆解共享 WAL、独立 MemTable/SST/Version链、<code>ColumnFamilyHandle</code> 生命周期与DBOptions/ColumnFamilyOptions 分层；并对照 Flink 多 state 变量到 CF的映射边界。"
-tags:
-  - "clippings"
+tags: []
 ---
 [第 12 篇](https://quant67.com/post/db/rocksdb/12-concurrent-ratelimit/12-concurrent-ratelimit.html) 把 compaction 并发与 RateLimiter 钉在 `CompactionJob` 线程池上。LevelDB 时代「整库一棵 LSM + 一份 MANIFEST」在 Flink state、TiKV Region 本地引擎等场景不够用： **同一 DB 实例内需要多组 comparator、独立 compaction 策略、可单独 drop 的逻辑分区** ，又不能牺牲跨分区原子写。
 

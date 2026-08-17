@@ -98,3 +98,23 @@
 - <2026-04-29> | 原文: [[第二章 Transformer 架构]]
   - 摘要: 新增 [[S-第二章-Transformer架构]]
   - 概念: 新增 [[C-自注意力机制]]
+
+- <2026-08-17> | 原文: [[vim列删除、列修改]]
+  - 摘要: 新增 [[S-vim列删除、列修改]]
+  - 概念: 无新增
+
+- <2026-08-17> | 原文: [[在 Linux 系统中安装与使用 tmux：从入门到精通]]
+  - 摘要: 新增 [[S-tmux入门]]
+  - 概念: 新增 [[C-终端复用器]]
+
+- <2026-08-17> | 原文: [[【RocksDB 内核机制】Column Family：共享 WAL 与独立 LSM]]
+  - 摘要: 新增 [[S-RocksDB-ColumnFamily]]
+  - 概念: 新增 [[C-ColumnFamily]]
+
+- <2026-08-17> | 原文: [[第三章 预训练语言模型]]
+  - 摘要: 已存在 [[S-第三章-预训练语言模型]]，本轮仅清理 clippings 标签
+  - 概念: 无新增
+
+- <2026-08-17> | 原文: [[Learning Beyond Gradients]]
+  - 摘要: 已存在 [[S-LearningBeyondGradients]]，本轮仅清理 clippings 标签
+  - 概念: 无新增

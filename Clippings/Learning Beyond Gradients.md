@@ -5,8 +5,7 @@ author:
 published:
 created: 2026-05-14
 description: "Learning Beyond Gradients"
-tags:
-  - "clippings"
+tags: []
 ---
 > [Jiayi Weng](https://trinkle23897.github.io/cv/)
 
